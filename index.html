@@ -336,133 +336,149 @@
 </div>
 <br>
 
-<div class="row">
+<style>
+/* Make all resume cards equal height */
+.resume-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 20px;
+  align-items: stretch;
+}
+
+.resume-wrap {
+  background: #1c1c1c;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0px 4px 15px rgba(0,0,0,0.4);
+}
+
+.resume-wrap h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.resume-wrap .date {
+  color: #f1c40f;
+  font-weight: 600;
+}
+
+.resume-wrap ul {
+  padding-left: 20px;
+}
+
+.resume-wrap ul li {
+  margin-bottom: 8px;
+  line-height: 1.4em;
+}
+</style>
+
+<div class="resume-grid">
     <!-- Accenture Experience -->
-    <div class="col-md-6">
-        <div class="resume-wrap ftco-animate">
-            <span class="date">March 2024 - March 2024</span>
-            <h2 class="job-title">Data Analyst</h2>
-            <span class="position">Accenture</span>
-            
-            <div class="job-description mt-4">
-                <p><strong>Data Analysis and Visualization Job Simulation</strong></p>
-                <ul class="job-responsibilities">
-                    <li>Conducted in-depth social media data analysis for a hypothetical client to assess engagement trends and content performance.</li>
-                    <li>Worked with 7 large datasets, performing data cleaning, transformation, and statistical analysis using Python and Excel.</li>
-                    <li>Identified key trends in user interactions, sentiment analysis, and content reach to help refine digital marketing strategies.</li>
-                    <li>Created interactive visualizations using Power BI to present findings in an easily digestible format for business stakeholders.</li>
-                    <li>Developed a detailed PowerPoint presentation and video report summarizing actionable insights, improving decision-making for the client.</li>
-                    <li>Collaborated in a simulated business environment, enhancing my ability to work with cross-functional teams and communicate technical insights effectively.</li>
-                    <li><strong>Achievements:</strong> Provided insights that could improve audience engagement by 20% based on predictive analysis of content trends.</li>
-                    <li><strong>Learnings:</strong> Gained hands-on experience in data storytelling, stakeholder communication, and the importance of aligning data-driven insights with business objectives.</li>
-                </ul>
-            </div>
+    <div class="resume-wrap ftco-animate">
+        <span class="date">March 2024 - March 2024</span>
+        <h2 class="job-title">Data Analyst</h2>
+        <span class="position">Accenture</span>
+        <div class="job-description mt-4">
+            <p><strong>Data Analysis and Visualization Job Simulation</strong></p>
+            <ul>
+                <li>Conducted in-depth social media data analysis...</li>
+                <li>Worked with 7 large datasets, performing data cleaning...</li>
+                <li>Identified key trends in user interactions...</li>
+                <li>Created interactive visualizations using Power BI...</li>
+                <li>Developed a detailed PowerPoint presentation...</li>
+                <li>Collaborated in a simulated business environment...</li>
+                <li><strong>Achievements:</strong> Improved engagement by 20%...</li>
+                <li><strong>Learnings:</strong> Gained hands-on experience in data storytelling...</li>
+            </ul>
         </div>
     </div>
 
     <!-- Comvision Experience -->
-    <div class="col-md-6">
-        <div class="resume-wrap ftco-animate">
-            <span class="date">July 2024 - November 2024</span>
-            <h2 class="job-title">Data Analyst Intern</h2>
-            <span class="position">Comvision India Private Limited</span>
-
-            <div class="job-description mt-4">
-                <p><strong>Company Overview:</strong> Comvision India Pvt. Ltd. is a pioneer in intelligent traffic and transport solutions, specializing in toll management, electronic toll collection (eToll), smart city implementations, and advanced traffic management systems. The company has collaborated with major clients like NHAI, Reliance Infrastructure, and Ircon, leveraging technology to enhance transportation infrastructure.</p>
-
-                <p><strong>Key Responsibilities:</strong></p>
-                <ul class="job-responsibilities">
-                    <li>Performed <strong>data collection, cleaning, and preprocessing</strong> to ensure high data accuracy for business insights.</li>
-                    <li>Utilized <strong>SQL, Python, and Excel</strong> to analyze datasets and extract meaningful trends to support decision-making.</li>
-                    <li>Designed and maintained <strong>interactive dashboards in Power BI and Excel</strong> to provide real-time analytics to stakeholders.</li>
-                    <li>Worked with cross-functional teams to improve <strong>data integrity and business reporting accuracy</strong>.</li>
-                    <li>Automated routine <strong>data workflows</strong>, reducing manual efforts and increasing operational efficiency.</li>
-                    <li>Developed a structured approach for <strong>KPI tracking and reporting</strong>, enabling better business forecasting.</li>
-                    <li>Enhanced skills in <strong>SQL, Python, Excel, and Power BI</strong>, staying updated with industry best practices in data analytics.</li>
-                </ul>
-
-                <p><strong>Impact & Learnings:</strong></p>
-                <ul>
-                    <li>Successfully contributed to data-driven decision-making, improving operational efficiency in traffic management projects.</li>
-                    <li>Gained hands-on experience in real-world data analytics applications, reinforcing knowledge of data visualization and reporting tools.</li>
-                    <li>Improved problem-solving skills by working on large datasets and optimizing business intelligence processes.</li>
-                </ul>
-            </div>
+    <div class="resume-wrap ftco-animate">
+        <span class="date">July 2024 - November 2024</span>
+        <h2 class="job-title">Data Analyst Intern</h2>
+        <span class="position">Comvision India Private Limited</span>
+        <div class="job-description mt-4">
+            <p><strong>Company Overview:</strong> Comvision India Pvt. Ltd. is a pioneer...</p>
+            <p><strong>Key Responsibilities:</strong></p>
+            <ul>
+                <li>Performed data collection, cleaning, and preprocessing...</li>
+                <li>Utilized SQL, Python, and Excel to analyze datasets...</li>
+                <li>Designed dashboards in Power BI and Excel...</li>
+                <li>Worked with cross-functional teams...</li>
+                <li>Automated data workflows...</li>
+                <li>Developed KPI tracking system...</li>
+                <li>Enhanced skills in SQL, Python, Excel, Power BI...</li>
+            </ul>
+            <p><strong>Impact & Learnings:</strong></p>
+            <ul>
+                <li>Contributed to data-driven decision-making...</li>
+                <li>Gained real-world data analytics experience...</li>
+                <li>Improved problem-solving on large datasets...</li>
+            </ul>
         </div>
     </div>
 
-<div class="col-md-6">
-        <div class="resume-wrap ftco-animate">
-            <span class="date">April 2025 - June 2025</span>
-            <h2 class="job-title">Project Analyst</h2>
-            <span class="position">Accessible Minds</span>
+    <!-- Accessible Minds -->
+    <div class="resume-wrap ftco-animate">
+        <span class="date">April 2025 - June 2025</span>
+        <h2 class="job-title">Project Analyst</h2>
+        <span class="position">Accessible Minds</span>
+        <div class="job-description mt-4">
+            <p><strong>Company Overview:</strong> Accessibility-focused projects...</p>
+            <p><strong>Key Responsibilities:</strong></p>
+            <ul>
+                <li>Coordinated and monitored accessibility projects...</li>
+                <li>Analyzed project requirements...</li>
+                <li>Maintained project documentation...</li>
+                <li>Facilitated communication between teams...</li>
+                <li>Assisted in client presentations...</li>
+                <li>Identified process gaps...</li>
+                <li>Gained experience in inclusive design practices...</li>
+            </ul>
+            <p><strong>Impact & Learnings:</strong></p>
+            <ul>
+                <li>Enhanced team coordination and timelines...</li>
+                <li>Strengthened documentation & communication...</li>
+                <li>Improved problem-solving in workflow gaps...</li>
+            </ul>
+        </div>
+    </div>
 
-            <div class="job-description mt-4">
-                <p><strong>Company Overview:</strong> I worked on accessibility-focused projects, helping coordinate tasks, track progress, and ensure smooth communication between teams. My role involved analyzing project requirements, managing documentation, and supporting the delivery of user-friendly digital solutions for people with disabilities. It was a meaningful experience that taught me how technology can be made more inclusive and impactful.</p>
-
-                <p><strong>Key Responsibilities</p>
-
-                <p><strong>Key Responsibilities:</strong></p>
-               <ul class="job-responsibilities">
-    <li>Coordinated and monitored progress of accessibility-related projects to ensure timely delivery.</li>
-    <li>Analyzed project requirements and translated them into actionable plans for internal teams.</li>
-    <li>Maintained project documentation, timelines, and reports to support smooth execution.</li>
-    <li>Facilitated communication between cross-functional teams including developers, testers, and accessibility experts.</li>
-    <li>Assisted in preparing client presentations, status updates, and project summaries.</li>
-    <li>Identified process gaps and suggested improvements to enhance team efficiency and project outcomes.</li>
-    <li>Gained hands-on experience in inclusive design practices and accessibility standards through real-world implementation.</li>
-</ul>
-
-
-                <p><strong>Impact & Learnings:</strong></p>
-                <ul>
-               <ul class="job-responsibilities">
-    <li>Successfully contributed to project planning and execution, enhancing team coordination and delivery timelines.</li>
-    <li>Gained hands-on experience in managing real-world accessibility projects, strengthening skills in documentation and stakeholder communication.</li>
-    <li>Improved problem-solving abilities by identifying workflow gaps and proposing actionable solutions to boost project efficiency.</li>
-</ul>
-
-            </div>
+    <!-- Neet Navigator -->
+    <div class="resume-wrap ftco-animate">
+        <span class="date">June 2025 - Present</span>
+        <h2 class="job-title">Data Analyst</h2>
+        <span class="position">Neet Navigator</span>
+        <div class="job-description mt-4">
+            <p><strong>Company Overview:</strong> NEET Navigator is a Delhi-based...</p>
+            <p><strong>Key Responsibilities:</strong></p>
+            <ul>
+                <li>Performed data collection, cleaning, preprocessing...</li>
+                <li>Utilized SQL, Python, and Excel...</li>
+                <li>Designed dashboards in Power BI...</li>
+                <li>Worked with cross-functional teams...</li>
+                <li>Automated workflows...</li>
+                <li>Developed KPI tracking...</li>
+                <li>Enhanced skills in SQL, Python, Excel...</li>
+            </ul>
+            <p><strong>Impact & Learnings:</strong></p>
+            <ul>
+                <li>Guided NEET UG aspirants using analytics...</li>
+                <li>Improved counselling strategies...</li>
+                <li>Strengthened practical knowledge...</li>
+                <li>Developed problem-solving and analytical skills...</li>
+                <li>Enhanced communication of insights...</li>
+            </ul>
         </div>
     </div>
 </div>
-
-
-
- <div class="col-md-6">
-        <div class="resume-wrap ftco-animate">
-            <span class="date">June 2025 - Present</span>
-            <h2 class="job-title">Data Analyst</h2>
-            <span class="position">Neet Navigator</span>
-
-            <div class="job-description mt-4">
-                <p><strong>Company Overview:</strong> NEET Navigator is a Delhi-based educational services company that provides ethical and data-driven counselling for NEET UG and PG admissions. With tools like MBBS Lighthouse and NEET Manobal, it leverages analytics and mentorship to guide students into reputed medical colleges, achieving a 95%+ satisfaction and 98% admission success rate.</p>
-
-            <p><strong>Key Responsibilities:</strong></p>
-<ul class="job-responsibilities">
-    <li>Performed <strong>data collection, cleaning, and preprocessing</strong> to ensure high data accuracy for business insights.</li>
-    <li>Utilized <strong>SQL, Python, and Excel</strong> to analyze datasets and extract meaningful trends to support decision-making.</li>
-    <li>Designed and maintained <strong>interactive dashboards in Power BI and Excel</strong> to provide real-time analytics to stakeholders.</li>
-    <li>Worked with cross-functional teams to improve <strong>data integrity and business reporting accuracy</strong>.</li>
-    <li>Automated routine <strong>data workflows</strong>, reducing manual efforts and increasing operational efficiency.</li>
-    <li>Developed a structured approach for <strong>KPI tracking and reporting</strong>, enabling better business forecasting.</li>
-    <li>Enhanced skills in <strong>SQL, Python, Excel, and Power BI</strong>, staying updated with industry best practices in data analytics.</li>
-</ul>
-
-
-                <p><strong>Impact & Learnings:</strong></p>
-             <ul>
-    <li>Successfully contributed to data-driven decision-making, analyzing student and admission data to guide NEET UG aspirants toward optimal college choices.</li>
-    <li>Monitored key metrics and admission trends, improving the effectiveness of counselling strategies and enhancing student outcomes.</li>
-    <li>Gained hands-on experience with SQL, Python, Excel, and data visualization tools, reinforcing practical knowledge of data analytics applications.</li>
-    <li>Developed problem-solving and analytical skills by working on large datasets and extracting actionable insights to support organizational growth.</li>
-    <li>Enhanced communication skills by presenting complex data insights to non-technical stakeholders while adhering to ethical and transparent guidance practices.</li>
-</ul>
-
-            </div>
-        </div>
-    </div>
-
 		<br>
 		<br>
 
